@@ -1,0 +1,62 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <title>Lazaro - Inicio</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-btt"><a href="index.html"><span>Datos personales</span></a></div>
+      <div class="nav-btt"><a href="acerca_de.html"><span>Acerca de mi</span></a></div>
+      <div class="nav-btt"><a href="estudios.html"><span>Estudios</span></a></div>
+      <div class="nav-btt"><a href="experiencia.html"><span>Experiencia</span></a></div>
+    </div>
+    <main class="main-dp">
+      <div class="izq">
+        <img src="img/Captura.PNG" height="300px" width="300px">
+        <p>ESTUDIANTE DE DESARROLLO DE SOFTWARE</p>
+        <div class="seccion-habilidades">
+          <div class="habilidad">
+              <h3>Desarrollo Web</h3>
+              <p>Valoraciones positivas: <span class="contador" id="contadorValoraciones">0</span></p>
+              <button class="btnIncrementar" onclick="incrementarValoracion()"> Enviar Valoración positiva</button>
+          </div>
+        </div>
+      </div>
+      <div class="caja">
+        <div class="title">
+          <h1>Datos personales</h1>
+        </div>
+        <div class="info">
+        <ul>
+          <li>
+            <h2>Nombre: </h2>
+            <p>Lázaro Casalla</p>
+          </li>
+          <li>
+            <h2>Fecha de nacimiento: </h2>
+            <p>16 de septiembre de 2003</p>
+          </li>
+          <li>
+            <h2>Lugar de residencia:</h2>
+            <p>Ezeiza, Buenos Aires, Argentina.</p>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </main>
+    <div class="footer">
+      <div>
+        Contacto <br>
+        (54) 9 11 2278-3671<br>
+        lazarocasalla4@gmail.com</div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

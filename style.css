@@ -1,0 +1,143 @@
+html{
+  min-height: 100%;
+  position: relative;
+}
+body{
+  margin: 0; 
+  background-color: #BFBFBF;
+  font-size: 18px;
+  overflow-y: auto;
+  padding-bottom: 20%;
+}
+.nav{
+  background-color: #0F4C81;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5%;
+  box-shadow: 0 2px 4px gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-btt{
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  margin-right: 18px;
+  margin-left: 18px;
+  background-color: #FFC300;
+  border: solid 0.2px black;
+  border-radius: 10px;
+  color: #757389;
+  font-size: 20px;
+}
+
+.nav-btt:hover{
+  background-color: #FF5733;
+}
+
+.nav-btt a{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px;
+}
+
+.footer{
+  text-align: center;
+  background-color: #C27655;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.izq{
+  margin-left: 20px;
+  text-align: center;
+}
+
+.izq img{
+  border: solid 2px black;
+  border-radius: 100%;
+  object-fit: cover;
+}
+img{
+  margin-top: 23%;
+}
+
+.caja{
+  background-color: #f1f1f1;
+  padding: 3% 15%;
+  margin: 0% 15%;
+  border-radius: 20px;
+}
+
+.main-dp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Esto centrará verticalmente los elementos hijos */
+  min-height: 100vh; /* Asegura que el main ocupa al menos toda la altura de la ventana */
+}
+
+h1, h2{
+  white-space: nowrap;
+  color: #757389;
+  font-family: lato, sans-serif;
+}
+
+h2{
+  text-align: left;
+  font-size: 20px;
+}
+
+h1, p{
+  text-align: center;
+}
+
+.info ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.info li {
+  margin-bottom: 10px; /* Añade un espacio entre cada elemento de la lista */
+}
+
+.info h2 {
+  white-space: nowrap;
+  text-align: left;
+}
+
+.info p {
+  text-align: center;
+}
+
+h1{
+  font-size: 30px;
+}
+
+p{
+  color: #0F4C81;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-btt {
+    font-size: 16px;
+  }
+
+  .main-dp {
+    flex-direction: column; /* Cambia la dirección de los elementos en pantallas pequeñas */
+  }
+}
+.seccion-habilidades{
+  background-color: #fff;
+  border-radius: 1.2em;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
